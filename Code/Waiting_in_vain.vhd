@@ -49,7 +49,7 @@ end Waiting_in_vain;
 architecture Behavioral of Waiting_in_vain is
 signal n_ena : std_logic_vector (5 downto 0):=(others=>'0');
 signal i : std_logic :='0'; --Pemet d'envoyer les fichiers que sur une p?riode d'horloge
-signal mem : integer range 0 to 210;-- nombre d'itérations dans la série entière
+signal mem : integer range 0 to 210;-- nombre d'itÃ©rations dans la sÃ©rie entiÃ¨re
 signal j : std_logic :='0';
 signal mem_back : std_logic_vector (3 downto 0):=s_background;
 signal mem_color : std_logic_vector (1 downto 0):=s_color;
