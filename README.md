@@ -6,6 +6,8 @@ A VHDL-based graphing calculator on FPGA that plots mathematical functions on a 
 ## Project Overview
 This project implements a **graphing calculator** using **VHDL** on an **FPGA**. It can plot various mathematical functions, such as exponentials, polynomials, and trigonometric functions, on a **Pmod OLED RGB display**. The system is designed for real-time function visualization and supports customizable coefficients.
 
+Please, reference us in your report if you are using our codes
+
 ## Features
 - Supports **exponential, linear, quadratic, and trigonometric functions**
 - **Customizable coefficients** using FPGA buttons
